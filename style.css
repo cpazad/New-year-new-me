@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("assets/images/banner/banner1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.banner-content {
+    max-width: 500px;
+    margin: 30vh 10vw 0 0 ;
+    text-align: right;
+    
+}
+.slogan {
+    font-size: 55px;
+}
+.banner-content p {
+    font-size: 25px;
+}
+.btn-contact-us {
+    background-color: #F15B22;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 15px 0px;
+    font-size: 18px;
+    border: none;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-failure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+.failure-me {
+    padding: 25px;
+}
+.failure-details {
+    padding: 25px 70px;
+}
+.failure-details h3 {
+    font-size: 45px;
+}
+
+.failure-details p {
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.failure-details ul li {
+    font-size: 25px;
+    list-style: disc;
+    line-height: 35px;
+
+}
+.failure-details ul{
+margin-left: 55px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+.my-plan .section-title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 55px;
+}
+.my-plan {
+    padding: 50px 0px;
+}
+.plans {
+    text-align: center;
+    line-height: 30px;
+}
+.call-now {
+    background-image:url("assets/images/gradient2.png"), url("assets/images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh, 20vh;
+    margin: 35px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.call-now-content {
+    width: 50%;
+    text-align: left;
+    margin: 50px 20px;
+    color: #fff;
+}
+.btn-call-now{
+   background-color:#fff; 
+    color: #F15B22;
+    padding: 10px 15px;
+    margin: 15px 0px;
+    font-size: 18px;
+    border: none; 
+}
+footer {
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0px auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.future p {
+    margin-bottom: 15px;
+}
+.future {
+    padding: 35px;
+    width: 500px;
+}
+
+.social-icons {
+    display: inline;
+    margin-right: 10px;
+}
+.social-icons a{
+    margin-right: 10px;
+    
+}
+.subscribe {
+    padding: 35px;
+    width: 500px;
+}
+.subscribe h2 {
+    margin-bottom: 15px;
+}
+input[type= email]{
+    padding: 5px;
+    width: 100%;
+}
+input[type=submit] {
+    background:#fff ;
+    color: #F15B22;
+    padding: 10px 35px;
+    margin: 15px 0px;
+}
