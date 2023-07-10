@@ -131,7 +131,9 @@ footer {
     padding: 35px;
     width: 500px;
 }
-
+.future h2 {
+    margin-bottom: 15px;
+}
 .social-icons {
     display: inline;
     margin-right: 10px;
